@@ -1,0 +1,18 @@
+[
+    {
+        "logo": "./assets/images/Automatic-trading.svg",
+        "alt" : "Create Event",
+        "url": "/manual_trading",
+        "title": "Automated Trade setup",
+        "type":"button",
+        "desc": "Setup stocks for automatic trading via TradingView and selected broker",
+       
+   
+        "logo2": "./assets/images/actual-trading.svg",
+        "alt2" : "Create Event",
+        "title2": "Manual Trading",
+        "disabled" : "btn btn-outline-primary btn-sm px-4 text-uppercase",
+        "desc2": "Setup/ login to your demat account with our associated brokers"
+    }
+    
+  ]

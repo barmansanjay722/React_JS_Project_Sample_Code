@@ -1,0 +1,22 @@
+[
+  {
+    "title": "- 40,589.00",
+    "desc": "Today's P&amp;L",
+    "icon": "fa-regular"
+  },
+  {
+    "title": "2,17,580.00",
+    "desc": "Overall P&amp;L",
+    "icon": "fa fa-chart-column"
+  },
+  {
+    "title": "₹ 6,589.00",
+    "desc": "Total Investment",
+    "icon": "fa fa-inr"
+  },
+  {
+    "title": "₹ 5,896.00",
+    "desc": "Current Value",
+    "icon": "fa-regular"
+  }
+]

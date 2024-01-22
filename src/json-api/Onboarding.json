@@ -1,0 +1,36 @@
+[
+ 
+  {
+    "logo": "./assets/images/actual-trading.svg",
+    "alt" : "Create Event",
+    "url": "/home",
+    "title": "Manual Trading",
+    "type":"button",
+    "disabled" : "btn btn-outline-primary btn-sm px-4 text-uppercase",
+    "desc": "Setup/ login to your demat account with our associated brokers",
+     "tag": "Live",
+     "cardTag" : "option-3 bg-warning position-absolute text-bold"
+  },
+  {
+    "logo": "./assets/images/Automatic-trading.svg",
+    "alt" : "Create Event",
+    "url": "/trade_setup",
+    "title": "Automated Trade setup",
+    "type":"button",
+    "disabled" : "btn btn-primary btn-sm px-4 text-uppercase",
+    "desc": "Setup stocks for automatic trading via TradingView and selected broker",
+    "tag": "Live",
+    "cardTag" : "option-3 bg-warning position-absolute text-bold"
+  },
+  {
+    "logo": "./assets/images/paper-trading.svg",
+    "alt" : "Connection Request",
+    "url": "/home",
+    "title": "Paper Trading",
+    "type":"button",
+    "disabled" : "btn btn-outline-primary btn-sm px-4 text-uppercase",   
+    "desc": "To try all manual trading features with virtual money",
+    "tag": "Virtual",
+    "cardTag" : "option-3 bg-light-warning position-absolute text-bold"
+  }
+]

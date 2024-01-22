@@ -1,0 +1,14 @@
+.owl-carousel .owl-stage-outer{
+    height: 94px !important  ; 
+}
+.btn-modal-save
+{
+  background-color:'#a2238f' !important  ;  
+  border:"none" !important
+
+}
+#editProfile
+{
+  background-color: rgba(151, 151, 151, 0.723);
+
+}

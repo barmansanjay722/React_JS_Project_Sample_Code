@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/app/">
+    <meta name="WAS" content="27022e7e19e9c356f65ce0944a5ac387">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/luno.style.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/jquerysteps.min.css">
+    <link rel="stylesheet" href="./assets/plugin/prismjs/prism.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <!-- plugin css file  -->
+    <link rel="stylesheet" href="./assets/css/daterangepicker.min.css">
+    <link rel="stylesheet" href="./assets/css/dataTables.min.css">
+  
+
+    
+
+    <title>Algotic</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/bundles/libscripts.bundle.js"></script>
+    <script src="./assets/plugin/prismjs/prism.js"></script>
+    <script src="./assets/bundles/jquerysteps.bundle.js"></script>
+    <script src="./assets/js/jquery.typer.js"></script>
+
+    <script src="./assets/bundles/daterangepicker.bundle.js"></script>
+    <script src="./assets/bundles/apexcharts.bundle.js"></script>
+    <script src="./assets/bundles/dataTables.bundle.js"></script>
+    <script src="./assets/bundles/owlcarousel.bundle.js"></script>
+    
+    <script src="./assets/js/style.js"></script>
+    <!-- Jquery Core Js -->
+    <!-- <script src="../assets/bundles/libscripts.bundle.js"></script> -->
+
+    <!-- Plugin Js -->
+
+    <!-- <script src="../assets/js/chart.js"></script>
+     -->
+    
+        
+  </head>
+   
+  <body  data-luno="theme-red">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="./assets/bundles/libscripts.bundle.js"></script>
+    <script>
+      $(document).on("click",".sidebar .menu-list .collapsed a.m-link",function () {
+        $("a.m-link span.fa-angle-right").toggleClass("active");
+          $("ul.sub-menu").toggleClass("active");
+      })
+
+ 
+    </script>
+  </body>
+</html>

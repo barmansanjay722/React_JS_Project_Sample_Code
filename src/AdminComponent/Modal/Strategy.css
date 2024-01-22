@@ -1,0 +1,16 @@
+#SettingsModal .custom_scroll,
+#detailModal .custom_scroll
+ {
+    height: 90vh;
+}
+#AddModal .card-body.custom_scroll{
+  height: 60vh;
+}
+#AddModal .fullscreen .card-body.custom_scroll{
+  height: 90vh;
+}
+/* .modal-strategy
+{
+   display : flex !important;
+   justify-content: end !important;
+} */
